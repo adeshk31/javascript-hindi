@@ -6,4 +6,6 @@ let name="adesh"
 const gamename=new String('FreeFire')
 
 console.log(`My Name is ${name} and My Roll No is ${rollno}`)
-console.log(gamename[0])
+//console.log(gamename[0])
+console.log(name.toUpperCase())
+console.log(name)
