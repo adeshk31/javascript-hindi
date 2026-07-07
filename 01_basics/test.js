@@ -1,10 +1,4 @@
-let x=5;
-let y=++x;
+const min=1
+const max=6
 
-console.log("x:"+x);
-console.log("y:" +y);
-
-let a=10
-let b=a++
-console.log("a:"+a);
-console.log("b:"+b);
+console.log(Math.floor(Math.random() * (max-min+1)) +min)
