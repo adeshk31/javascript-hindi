@@ -18,12 +18,23 @@ let myarr=[18,42,53,60,62,74,76]
            //includes() → Is it there?
            //indexOf() → Where is it?
            //join() → Make it one string.
+//      slice(start,end)	               splice(start,end)
+//Copies elements	                Removes/Adds elements
+//Original array stays the same	    Original array changes
+//Returns new array	             Returns the removed elements
+//example for slice and splice
+let arr=[10,20,30,40,50]
+console.log(arr.slice(1,3))  //O/P:-[20,30]
+console.log(arr) //[10,20,30,40,50] i.e arr remained same
+
+console.log(arr.splice(1,3)) //o/p:-[20,30,40]
+console.log(arr) //[10,50] i.e arr got changed
 
 myarr.push(17)
 myarr.pop()
 myarr.unshift(56)
 myarr.shift()
 
-console.log(myarr.length)
-console.log(myarr)
+//console.log(myarr.length)
+//console.log(myarr)
 
